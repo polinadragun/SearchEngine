@@ -25,6 +25,8 @@ The **BM25 algorithm** scores document relevance by analyzing term frequency, do
 - Term frequency within each document,
 - The average document length, and
 - Inverse document frequency (IDF).
+  ![image](https://github.com/user-attachments/assets/18118b5f-0c26-43fc-a067-82b6e6817b2a)
+
 
 ### Execution of Search Queries
 The query parser breaks down user queries into Boolean operators and terms, building an AST to represent the query structure. Each term’s posting list is retrieved by searching the trie, and the AST nodes are evaluated to combine results based on "AND" or "OR" operations. Relevant documents are then scored and sorted based on their BM25 relevance scores.
