@@ -25,6 +25,7 @@ The **BM25 algorithm** scores document relevance by analyzing term frequency, do
 - Term frequency within each document,
 - The average document length, and
 - Inverse document frequency (IDF).
+  
   ![image](https://github.com/user-attachments/assets/18118b5f-0c26-43fc-a067-82b6e6817b2a)
 
 
